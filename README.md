@@ -1,10 +1,5 @@
 ## react-native-slider
 
-[![npm version](https://img.shields.io/npm/v/@brlja/react-native-slider.svg?style=flat-square)](https://www.npmjs.com/package/@brlja/react-native-slider "View this project on npm")
-[![npm downloads](http://img.shields.io/npm/dm/@brlja/react-native-slider.svg?style=flat-square)](https://www.npmjs.com/package/@brlja/react-native-slider "View this project on npm")
-[![npm licence](http://img.shields.io/npm/l/@brlja/react-native-slider.svg?style=flat-square)](https://www.npmjs.com/package/@brlja/react-native-slider "View this project on npm")
-[![Platform](https://img.shields.io/badge/platform-ios%20%7C%20android-989898.svg?style=flat-square)](https://www.npmjs.com/package/@brlja/react-native-slider "View this project on npm")
-
 This is a fork of jeanregisser/react-native-slider.
 Has fixed react lifecycle deprecation warnings/errors.
 
@@ -16,7 +11,7 @@ It is a drop-in replacement for [Slider](http://facebook.github.io/react-native/
 ## Install
 
 ```shell
-npm i --save @brlja/react-native-slider
+npm i --save @dean9703111/react-native-slider
 ```
 
 **Note:** I try to maintain backward compatibility of this component with previous versions of React Native, but due to the nature of the platform, and the existence of breaking changes between releases, it is possible that you need to use a specific version of this component to support the exact version of React Native you are using. See the following table:
@@ -33,7 +28,7 @@ npm i --save @brlja/react-native-slider
 
 ```jsx
 import React from "react";
-import Slider from "@brlja/react-native-slider";
+import Slider from "@dean9703111/react-native-slider";
 import { AppRegistry, StyleSheet, View, Text } from "react-native";
 
 class SliderExample extends React.Component {
